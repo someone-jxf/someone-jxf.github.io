@@ -2,21 +2,17 @@
 <rss version="2.0">
     <channel>
         <title>Hexo</title>
-        <subtitle></subtitle>
-        <icon>http://example.com/images/favicon.ico</icon>
         <link>http://example.com</link>
-        <author>
-          <name>John Doe</name>
-        </author>
         <description></description>
         <language>en</language>
         <pubDate>Sun, 04 Jun 2023 13:09:41 +0800</pubDate>
         <lastBuildDate>Sun, 04 Jun 2023 13:09:41 +0800</lastBuildDate>
+        <category>日记</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/06/04/%E6%88%90%E7%A5%9E/</guid>
             <title>日常</title>
             <link>http://example.com/2023/06/04/%E6%88%90%E7%A5%9E/</link>
-            <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/" />
+            <category>日记</category>
             <pubDate>Sun, 04 Jun 2023 13:09:41 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;今天尝试搭了个博客感觉好麻烦不想玩了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#今天尝试搭了个博客感觉好麻烦不想玩了&#34;&gt;#&lt;/a&gt; 今天尝试搭了个博客，感觉好麻烦，不想玩了&lt;/h2&gt;
 &lt;p&gt;xxxxx&lt;/p&gt;
