@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"someone-jxf.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="极客MySQL实战45讲01讲基础架构：一条SQL查询语句是如何执行的02讲日志系统：一条SQL更新语句是如何执行的03讲事务隔离：为什么你改了我还看不见04讲深入浅出索引（上）05讲深入浅出索引（下）06讲全局锁和表锁：给表加个字段怎么有这么多阻碍07讲行锁功过：怎么减少行锁对性能的影响08讲事务到底是隔离的还是不隔离的09讲普通索引和唯一索引，应该怎么选择10讲MySQL为什么有时候会选错索引">
+<meta property="og:type" content="website">
+<meta property="og:title" content="推荐资料">
+<meta property="og:url" content="https://someone-jxf.github.io/others/index.html">
+<meta property="og:site_name" content="今日晴">
+<meta property="og:description" content="极客MySQL实战45讲01讲基础架构：一条SQL查询语句是如何执行的02讲日志系统：一条SQL更新语句是如何执行的03讲事务隔离：为什么你改了我还看不见04讲深入浅出索引（上）05讲深入浅出索引（下）06讲全局锁和表锁：给表加个字段怎么有这么多阻碍07讲行锁功过：怎么减少行锁对性能的影响08讲事务到底是隔离的还是不隔离的09讲普通索引和唯一索引，应该怎么选择10讲MySQL为什么有时候会选错索引">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-05-02T12:06:56.000Z">
+<meta property="article:modified_time" content="2025-05-02T09:10:40.082Z">
+<meta property="article:author" content="绯色">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://someone-jxf.github.io/others/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://someone-jxf.github.io/others/index.html","path":"others/index.html","title":"推荐资料"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>推荐资料 | 今日晴
+</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+  <script src="/js/third-party/addtoany.js" defer></script>
+
+  
+
+
+
+
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">今日晴</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">来时路</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-others"><a href="/others/" rel="section"><i class="fa fa-folder-open fa-fw"></i>其他</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2"><span class="nav-number">1.</span> <span class="nav-text">极客MySQL实战45讲</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">绯色</p>
+  <div class="site-description" itemprop="description">流离之人追逐幻影，或许是不知梦的缘故</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">推荐资料
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h1 id="极客MySQL实战45讲"><a href="#极客MySQL实战45讲" class="headerlink" title="极客MySQL实战45讲"></a>极客MySQL实战45讲</h1><p><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C01%E8%AE%B2%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84%EF%BC%9A%E4%B8%80%E6%9D%A1SQL%E6%9F%A5%E8%AF%A2%E8%AF%AD%E5%8F%A5%E6%98%AF%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E7%9A%84.html">01讲基础架构：一条SQL查询语句是如何执行的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C02%E8%AE%B2%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F%EF%BC%9A%E4%B8%80%E6%9D%A1SQL%E6%9B%B4%E6%96%B0%E8%AF%AD%E5%8F%A5%E6%98%AF%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E7%9A%84.html">02讲日志系统：一条SQL更新语句是如何执行的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C03%E8%AE%B2%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E6%94%B9%E4%BA%86%E6%88%91%E8%BF%98%E7%9C%8B%E4%B8%8D%E8%A7%81.html">03讲事务隔离：为什么你改了我还看不见</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C04%E8%AE%B2%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%B4%A2%E5%BC%95%EF%BC%88%E4%B8%8A%EF%BC%89.html">04讲深入浅出索引（上）</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C05%E8%AE%B2%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%B4%A2%E5%BC%95%EF%BC%88%E4%B8%8B%EF%BC%89.html">05讲深入浅出索引（下）</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C06%E8%AE%B2%E5%85%A8%E5%B1%80%E9%94%81%E5%92%8C%E8%A1%A8%E9%94%81%EF%BC%9A%E7%BB%99%E8%A1%A8%E5%8A%A0%E4%B8%AA%E5%AD%97%E6%AE%B5%E6%80%8E%E4%B9%88%E6%9C%89%E8%BF%99%E4%B9%88%E5%A4%9A%E9%98%BB%E7%A2%8D.html">06讲全局锁和表锁：给表加个字段怎么有这么多阻碍</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C07%E8%AE%B2%E8%A1%8C%E9%94%81%E5%8A%9F%E8%BF%87%EF%BC%9A%E6%80%8E%E4%B9%88%E5%87%8F%E5%B0%91%E8%A1%8C%E9%94%81%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.html">07讲行锁功过：怎么减少行锁对性能的影响</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C08%E8%AE%B2%E4%BA%8B%E5%8A%A1%E5%88%B0%E5%BA%95%E6%98%AF%E9%9A%94%E7%A6%BB%E7%9A%84%E8%BF%98%E6%98%AF%E4%B8%8D%E9%9A%94%E7%A6%BB%E7%9A%84.html">08讲事务到底是隔离的还是不隔离的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C09%E8%AE%B2%E6%99%AE%E9%80%9A%E7%B4%A2%E5%BC%95%E5%92%8C%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%EF%BC%8C%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E9%80%89%E6%8B%A9.html">09讲普通索引和唯一索引，应该怎么选择</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C10%E8%AE%B2MySQL%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E6%97%B6%E5%80%99%E4%BC%9A%E9%80%89%E9%94%99%E7%B4%A2%E5%BC%95.html">10讲MySQL为什么有时候会选错索引</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C11%E8%AE%B2%E6%80%8E%E4%B9%88%E7%BB%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E6%AE%B5%E5%8A%A0%E7%B4%A2%E5%BC%95.html">11讲怎么给字符串字段加索引</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C12%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84MySQL%E4%BC%9A%E2%80%9C%E6%8A%96%E2%80%9D%E4%B8%80%E4%B8%8B.html">12讲为什么我的MySQL会“抖”一下</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C13%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A8%E6%95%B0%E6%8D%AE%E5%88%A0%E6%8E%89%E4%B8%80%E5%8D%8A%EF%BC%8C%E8%A1%A8%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E4%B8%8D%E5%8F%98.html">13讲为什么表数据删掉一半，表文件大小不变</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C14%E8%AE%B2count%E8%BF%99%E4%B9%88%E6%85%A2%EF%BC%8C%E6%88%91%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E.html">14讲count这么慢，我该怎么办</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C15%E8%AE%B2%E7%AD%94%E7%96%91%E6%96%87%E7%AB%A0%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E6%97%A5%E5%BF%97%E5%92%8C%E7%B4%A2%E5%BC%95%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98.html">15讲答疑文章（一）：日志和索引相关问题</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C16%E8%AE%B2%E2%80%9Corderby%E2%80%9D%E6%98%AF%E6%80%8E%E4%B9%88%E5%B7%A5%E4%BD%9C%E7%9A%84.html">16讲“orderby”是怎么工作的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C17%E8%AE%B2%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%9C%B0%E6%98%BE%E7%A4%BA%E9%9A%8F%E6%9C%BA%E6%B6%88%E6%81%AF.html">17讲如何正确地显示随机消息</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C18%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%BA%9BSQL%E8%AF%AD%E5%8F%A5%E9%80%BB%E8%BE%91%E7%9B%B8%E5%90%8C%EF%BC%8C%E6%80%A7%E8%83%BD%E5%8D%B4%E5%B7%AE%E5%BC%82%E5%B7%A8%E5%A4%A7.html">18讲为什么这些SQL语句逻辑相同，性能却差异巨大</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C19%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E5%8F%AA%E6%9F%A5%E4%B8%80%E8%A1%8C%E7%9A%84%E8%AF%AD%E5%8F%A5%EF%BC%8C%E4%B9%9F%E6%89%A7%E8%A1%8C%E8%BF%99%E4%B9%88%E6%85%A2.html">19讲为什么我只查一行的语句，也执行这么慢</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C20%E8%AE%B2%E5%B9%BB%E8%AF%BB%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E5%B9%BB%E8%AF%BB%E6%9C%89%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98.html">20讲幻读是什么，幻读有什么问题</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C21%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E5%8F%AA%E6%94%B9%E4%B8%80%E8%A1%8C%E7%9A%84%E8%AF%AD%E5%8F%A5%EF%BC%8C%E9%94%81%E8%BF%99%E4%B9%88%E5%A4%9A.html">21讲为什么我只改一行的语句，锁这么多</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C22%E8%AE%B2MySQL%E6%9C%89%E5%93%AA%E4%BA%9B%E2%80%9C%E9%A5%AE%E9%B8%A9%E6%AD%A2%E6%B8%B4%E2%80%9D%E6%8F%90%E9%AB%98%E6%80%A7%E8%83%BD%E7%9A%84%E6%96%B9%E6%B3%95.html">22讲MySQL有哪些“饮鸩止渴”提高性能的方法</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C23%E8%AE%B2MySQL%E6%98%AF%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E4%B8%8D%E4%B8%A2%E7%9A%84.html">23讲MySQL是怎么保证数据不丢的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C24%E8%AE%B2MySQL%E6%98%AF%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81%E4%B8%BB%E5%A4%87%E4%B8%80%E8%87%B4%E7%9A%84.html">24讲MySQL是怎么保证主备一致的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C25%E8%AE%B2MySQL%E6%98%AF%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84.html">25讲MySQL是怎么保证高可用的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C26%E8%AE%B2%E5%A4%87%E5%BA%93%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BB%B6%E8%BF%9F%E5%A5%BD%E5%87%A0%E4%B8%AA%E5%B0%8F%E6%97%B6.html">26讲备库为什么会延迟好几个小时</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C27%E8%AE%B2%E4%B8%BB%E5%BA%93%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E4%BB%8E%E5%BA%93%E6%80%8E%E4%B9%88%E5%8A%9E.html">27讲主库出问题了，从库怎么办</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C28%E8%AE%B2%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB%E6%9C%89%E5%93%AA%E4%BA%9B%E5%9D%91.html">28讲读写分离有哪些坑</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C29%E8%AE%B2%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E6%98%AF%E4%B8%8D%E6%98%AF%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86.html">29讲如何判断一个数据库是不是出问题了</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C30%E8%AE%B2%E7%AD%94%E7%96%91%E6%96%87%E7%AB%A0%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E7%94%A8%E5%8A%A8%E6%80%81%E7%9A%84%E8%A7%82%E7%82%B9%E7%9C%8B%E5%8A%A0%E9%94%81.html">30讲答疑文章（二）：用动态的观点看加锁</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C31%E8%AE%B2%E8%AF%AF%E5%88%A0%E6%95%B0%E6%8D%AE%E5%90%8E%E9%99%A4%E4%BA%86%E8%B7%91%E8%B7%AF%EF%BC%8C%E8%BF%98%E8%83%BD%E6%80%8E%E4%B9%88%E5%8A%9E.html">31讲误删数据后除了跑路，还能怎么办</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C32%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E6%9C%89kill%E4%B8%8D%E6%8E%89%E7%9A%84%E8%AF%AD%E5%8F%A5.html">32讲为什么还有kill不掉的语句</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C33%E8%AE%B2%E6%88%91%E6%9F%A5%E8%BF%99%E4%B9%88%E5%A4%9A%E6%95%B0%E6%8D%AE%EF%BC%8C%E4%BC%9A%E4%B8%8D%E4%BC%9A%E6%8A%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%86%85%E5%AD%98%E6%89%93%E7%88%86.html">33讲我查这么多数据，会不会把数据库内存打爆</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C34%E8%AE%B2%E5%88%B0%E5%BA%95%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8join.html">34讲到底可不可以使用join</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C35%E8%AE%B2join%E8%AF%AD%E5%8F%A5%E6%80%8E%E4%B9%88%E4%BC%98%E5%8C%96.html">35讲join语句怎么优化</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C36%E8%AE%B2%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%B4%E6%97%B6%E8%A1%A8%E5%8F%AF%E4%BB%A5%E9%87%8D%E5%90%8D.html">36讲为什么临时表可以重名</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C37%E8%AE%B2%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%86%85%E9%83%A8%E4%B8%B4%E6%97%B6%E8%A1%A8.html">37讲什么时候会使用内部临时表</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C38%E8%AE%B2%E9%83%BD%E8%AF%B4InnoDB%E5%A5%BD%EF%BC%8C%E9%82%A3%E8%BF%98%E8%A6%81%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8Memory%E5%BC%95%E6%93%8E.html">38讲都说InnoDB好，那还要不要使用Memory引擎</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C39%E8%AE%B2%E8%87%AA%E5%A2%9E%E4%B8%BB%E9%94%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%98%AF%E8%BF%9E%E7%BB%AD%E7%9A%84.html">39讲自增主键为什么不是连续的</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C40%E8%AE%B2insert%E8%AF%AD%E5%8F%A5%E7%9A%84%E9%94%81%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E5%A4%9A.html">40讲insert语句的锁为什么这么多</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C41%E8%AE%B2%E6%80%8E%E4%B9%88%E6%9C%80%E5%BF%AB%E5%9C%B0%E5%A4%8D%E5%88%B6%E4%B8%80%E5%BC%A0%E8%A1%A8.html">41讲怎么最快地复制一张表</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C42%E8%AE%B2grant%E4%B9%8B%E5%90%8E%E8%A6%81%E8%B7%9F%E7%9D%80flushprivileges%E5%90%97.html">42讲grant之后要跟着flushprivileges吗</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C43%E8%AE%B2%E8%A6%81%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8%E5%88%86%E5%8C%BA%E8%A1%A8.html">43讲要不要使用分区表</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C44%E8%AE%B2%E7%AD%94%E7%96%91%E6%96%87%E7%AB%A0%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E8%AF%B4%E4%B8%80%E8%AF%B4%E8%BF%99%E4%BA%9B%E5%A5%BD%E9%97%AE%E9%A2%98.html">44讲答疑文章（三）：说一说这些好问题</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C%E5%BC%80%E7%AF%87%E8%AF%8D%E8%AE%B2%E8%BF%99%E4%B8%80%E6%AC%A1%EF%BC%8C%E8%AE%A9%E6%88%91%E4%BB%AC%E4%B8%80%E8%B5%B7%E6%9D%A5%E6%90%9E%E6%87%82MySQL.html">开篇词讲这一次，让我们一起来搞懂MySQL</a><br><a href="%E6%9E%81%E5%AE%A2MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2%5C%E7%9B%B4%E6%92%AD%E5%9B%9E%E9%A1%BE%E8%AE%B2%E6%9E%97%E6%99%93%E6%96%8C%EF%BC%9A%E6%88%91%E7%9A%84MySQL%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B.html">直播回顾讲林晓斌：我的MySQL心路历程</a></p>
+
+      </div>
+      
+      
+      
+    </div>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">绯色</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
